@@ -1,1 +1,14 @@
-.fondoHome{background-image: url(../img/bathroom.jpg);}
+// general
+main{box-sizing: border-box;}
+body{font-family: 'Abel', sans-serif;}
+
+// home
+.fondoHome{background-image: url(../img/bathroom.jpg);width: 100%;height: 100vh;background-size: cover;background-position: center;}
+.home_titulo h1{
+    font-size: 100px;
+    color: white;
+    margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
