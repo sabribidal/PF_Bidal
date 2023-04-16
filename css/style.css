@@ -1,3 +1,25 @@
+.nav {
+  --bs-nav-link-hover-color: #6c757d;
+}
 
+.nav:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+.fondoHome {
+  background-image: url(../img/bathroom.jpg);
+}
+
+footer {
+  background-color: black;
+}
 
 /*# sourceMappingURL=style.css.map */
