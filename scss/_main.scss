@@ -26,3 +26,18 @@ img{max-width: 100%;max-height: 100%;}
 .texto_nos h1{margin-bottom: 25px;}
 .P_ultimo{margin-bottom: 50px;}
 .living{width: 400px;height: auto;margin: 50px;}
+// proyectos
+.proyectos{background-color: black;}
+.cards{
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card{
+    padding: 0;
+    border: none;
+    background-color: rgb(135, 116, 94);
+}
+// .casa2{width: 328px;height: 410px;}
