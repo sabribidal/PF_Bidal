@@ -32,6 +32,20 @@ main {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Abel", sans-serif;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .fondoHome {
   background-image: url(../img/bathroom.jpg);
   width: 100%;
@@ -49,8 +63,27 @@ main {
   text-align: center;
 }
 
-body {
-  font-family: "Abel", sans-serif;
+.texto_nos {
+  flex-direction: column;
+  margin: 50px;
+  margin-left: 65px;
+  padding: 0;
+  width: 650px;
+  justify-content: space-between;
+}
+
+.texto_nos h1 {
+  margin-bottom: 25px;
+}
+
+.P_ultimo {
+  margin-bottom: 50px;
+}
+
+.living {
+  width: 400px;
+  height: auto;
+  margin: 50px;
 }
 
 footer {
@@ -58,7 +91,7 @@ footer {
   height: 65px;
 }
 
-.home_boton a {
+.home_boton a, .nos_boton a {
   background-color: rgb(195, 169, 139);
   color: black;
   padding: 10px;
@@ -68,6 +101,10 @@ footer {
 
 .home_boton {
   text-align: center;
+}
+
+.nos_boton {
+  align-items: end;
 }
 
 /*# sourceMappingURL=style.css.map */

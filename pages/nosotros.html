@@ -13,48 +13,54 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- logo + nav -->
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <img src="../img/logo.png" alt="logo" class="nav_logo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav">
-                        <a class="nav-link" href="../index.html">Home</a>
-                        <a class="nav-link" href="#">About us</a>                   
-                        <a class="nav-link" href="premios.html">Awards</a>                    
-                        <a class="nav-link" href="proyectos.html">Projects</a>                    
-                        <a class="nav-link" href="contacto.html">Contact</a>
+    <div class="container-fluid">
+        <!-- logo + nav -->
+        <header class="row">
+            <nav class="navbar navbar-expand-lg col-12 cold-xl-12">
+                <div class="container-fluid">
+                    <img src="../img/logo.png" alt="logo" class="nav_logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav">
+                            <a class="nav-link" href="../index.html">Home</a>                        
+                            <a class="nav-link" href="3">About us</a>                        
+                            <a class="nav-link" href="pages/premios.html">Awards</a>                        
+                            <a class="nav-link" href="pages/proyectos.html">Projects</a>                        
+                            <a class="nav-link" href="pages/contacto.html">Contact</a>
+                        </div>
                     </div>
                 </div>
+            </nav>
+        </header>
+        <!-- contenido principal -->
+        <main>
+            <div class="row justify-content-center">
+                <div class="col-12 cold-xl-8 d-flex texto_nos">
+                    <h1>SOBRE NOSOTROS</h1>
+                    <h2>Proyectamos</h2>
+                    <p>Desarrollamos el legajo tecnico de la obra junto a nuestros asesores especialistas en cada uno de los aspectos del proyecto.</p>
+                    <h2>Gestionamos</h2>
+                    <p>Dirigimos, administramos y desarrollamos los legajos de obras de arquitectura para presentar y aprobar en los municipios correspondientes.</p>
+                    <h2>Dirigimos obras</h2>
+                    <p class="P_ultimo">Definimos un cronograma para la ejecucion de la totalidad de la obra. Supervisamos la fiel interpretacion de la documentacion tecnica y verificamos la correcta ejecucion de las diferentes tareas.</p>
+                    <div class="nos_boton">
+                        <a href="proyectos.html">Projects</a>
+                    </div>
+                </div>
+                <div class="col-12 cold-xl-4 living img-fluid">
+                    <img src="../img/Luxury White interior.png" alt="living">
+                </div>
             </div>
-        </nav>
-    </header>
-    <!-- contenido principal -->
-    <main>
-        <div>
-            <h1>SOBRE NOSOTROS</h1>
-            <h2>Proyectamos</h2>
-            <p>Desarrollamos el legajo tecnico de la obra junto a nuestros asesores especialistas en cada uno de los aspectos del proyecto.</p>
-            <h2>Gestionamos</h2>
-            <p>Dirigimos, administramos y desarrollamos los legajos de obras de arquitectura para presentar y aprobar en los municipios correspondientes.</p>
-            <h2>Dirigimos obras</h2>
-            <p>Definimos un cronograma para la ejecucion de la totalidad de la obra. Supervisamos la fiel interpretacion de la documentacion tecnica y verificamos la correcta ejecucion de las diferentes tareas.</p>
-            <a href="">Proyectos</a>
-        </div>
-        <div>
-            <img src="" alt="">
-        </div>
-    </main>
-    <!-- pie de pagina  -->
-    <footer>
-        <div>
-            <h3>Redes sociales</h3>
-        </div>
-    </footer>
+        </main>
+        <!-- pie de pagina  -->
+        <footer>
+            <div>
+                <h3>Redes sociales</h3>
+            </div>
+        </footer>
+    </div>
     <!-- JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>

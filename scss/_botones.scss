@@ -1,3 +1,5 @@
 // home
-.home_boton a{background-color: rgb(195, 169, 139);color: black;padding: 10px;border-radius: 10px;text-decoration: none;}
+.home_boton a, .nos_boton a{background-color: rgb(195, 169, 139);color: black;padding: 10px;border-radius: 10px;text-decoration: none;}
 .home_boton{text-align: center;}
+// nosotros
+.nos_boton{align-items: end;}
