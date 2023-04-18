@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div>
+    <div class="container-fluid p-0">
         <!-- logo + nav -->    
         <header class="row">        
             <nav class="navbar navbar-expand-lg col-12 cold-xl-12">  
-                <div class="container-fluid">        
+                <div class="container-fluid menu">        
                     <img src="../img/logo.png" alt="logo" class="nav_logo">   
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>    
@@ -36,16 +36,16 @@
         </header>    
         <!-- contenido principal -->    
         <main>   
-            <div class="row d-flex texto_cont">
-                <div class="col-12 cold-xl-8"> 
+            <div class="row d-flex texto_cont mt-5 p-0">
+                <div class="col-12 cold-xl-8 formulario"> 
                     <h1>We want to meet you!</h1>       
                     <form action="#">    
                         <label for="nombre">Name</label><br>    
-                        <input type="text"><br>
+                        <input type="text" style="width: 330px"><br>
                         <label for="apellido">Last name</label><br>
-                        <input type="text"><br>    
+                        <input type="text" style="width: 330px"><br>    
                         <label for="mail">Mail</label><br>    
-                        <input type="email" name="mail"><br>    
+                        <input type="email" name="mail" style="width: 330px"><br>    
                         <label for="Mensaje">Message</label><br>    
                         <textarea name="mensaje" id="" cols="30" rows="10" style="width: 330px;height: 220px;"></textarea><br>    
                         <input type="submit" value="Send" class="proy_boton">    

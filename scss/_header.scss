@@ -4,3 +4,7 @@ header{background-color: black;}
 nav{height: 65px;}
 .nav_logo{height: 65px;width: auto;}
 nav .container-fluid{padding-left: 50px;padding-right: 50px;}
+
+@media (max-width:768px){
+    .menu{background-color: black;}
+}
