@@ -29,16 +29,11 @@ nav .container-fluid {
 }
 
 main {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
   font-family: "Abel", sans-serif;
-}
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 img {
@@ -91,7 +86,6 @@ img {
 }
 
 .cards {
-  justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 5px;
@@ -102,6 +96,44 @@ img {
   padding: 0;
   border: none;
   background-color: rgb(135, 116, 94);
+  width: 320px;
+}
+
+.card-text {
+  font-size: xx-large;
+}
+
+.texto_cont {
+  flex-wrap: nowrap;
+  margin: 50px;
+  margin-left: 65px;
+  padding: 0;
+  width: 650px;
+}
+
+.blanco {
+  width: 400px;
+  height: auto;
+  margin: 50px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.text_premios {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.img_premios img {
+  width: 400px;
+  height: 450px;
+}
+
+.img_premios {
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
