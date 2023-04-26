@@ -1,6 +1,19 @@
 // home
-.home_boton a, .nos_boton a{background-color: rgb(195, 169, 139);color: black;padding: 10px;border-radius: 10px;text-decoration: none;}
-.home_boton{text-align: center;}
+.home_boton a, .nos_boton a{
+    background-color: rgb(195, 169, 139);
+    color: black;
+    padding-left: 2.5rem;padding-right: 2.5rem;padding-bottom: 0.5rem;padding-top: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.home_boton{
+    text-align: center;
+    z-index: 1;
+    margin-top: 2.5rem;
+}
+
+
+
 // nosotros
 .nos_boton{align-items: end;}
 // proyectos
