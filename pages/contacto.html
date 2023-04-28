@@ -19,7 +19,7 @@
     <div class="container-fluid p-0">
         <!-- logo + nav -->    
         <header class="row">        
-            <nav class="navbar navbar-expand-lg col-12 cold-xl-12">  
+            <nav class="navbar navbar-expand-lg col-12 col-xl-12">  
                 <div class="container-fluid menu">        
                     <img src="../img/logo.png" alt="logo" class="nav_logo">   
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +38,17 @@
             </nav>    
         </header>    
         <!-- contenido principal -->    
-        <main>   
-            <div class="row d-flex texto_cont mt-5 p-0">
-                <div class="col-12 cold-xl-8 formulario"> 
-                    <h1>We want to meet you!</h1>       
+        <main>
+            <div class="row text-center my-5">
+                <div class="col-12 col-xl-12">
+                    <h1>Our team wants to hear from you!</h1>       
+                </div>
+            </div>
+            <div class="row p-0 justify-content-center">
+                <div class="col-12 col-xl-4 texto_cont">
+                    <h4>If you have questions or queries and want to know more about us, do not hesitate to contact us through our digital channels. We will be answering all your concerns as soon as possible.</h4>
+                </div>
+                <div class="col-12 col-xl-4 formulario"> 
                     <form action="#">    
                         <label for="nombre">Name</label><br>    
                         <input type="text" style="width: 330px"><br>
@@ -50,14 +57,31 @@
                         <label for="mail">Mail</label><br>    
                         <input type="email" name="mail" style="width: 330px"><br>    
                         <label for="Mensaje">Message</label><br>    
-                        <textarea name="mensaje" id="" cols="30" rows="10" style="width: 330px;height: 220px;"></textarea><br>    
-                        <input type="submit" value="Send" class="proy_boton">    
+                        <textarea name="mensaje" id="" cols="30" rows="10" style="width: 330px;height: 150px;"></textarea><br>    
+                        <input type="submit" value="Send" class="cont_boton">    
                     </form>       
-                </div> 
-                <div class="col-12 cold-xl-4 img-fluid blanco">
-                    <img src="../img/whitedream.png" alt="bathroom">    
                 </div>
-            </div>  
+                <div class="col-12 col-xl-4 p-0 space">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide space" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img/space1.png" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/space2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/space3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-12 col-xl-12 p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.3742118026203!2d-58.51068938484685!3d-31.62360298133549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b20382087c1f01%3A0xb15e215e9567883d!2sLisandro%20Castro%20154%2C%20San%20Salvador%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1682643046703!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+                </div>
+            </div>
         </main>    
         <!-- pie de pagina -->    
         <footer class="d-flex justify-content-center align-items-center">

@@ -120,19 +120,23 @@ body {
   font-size: xx-large;
 }
 
-.texto_cont {
-  flex-wrap: nowrap;
-  margin: 50px;
-  margin-left: 65px;
-  width: 650px;
+.space {
+  width: 20rem;
 }
 
-.blanco {
+.texto_cont {
+  padding-right: 3rem;
+  width: 500px;
+}
+
+.formulario {
   width: 400px;
-  height: auto;
-  margin: 50px;
-  margin-top: 0;
-  padding: 0;
+}
+
+.mapa {
+  width: 100%;
+  height: 300px;
+  margin-top: 6rem;
 }
 
 .text_premios {
@@ -233,6 +237,7 @@ footer h3 {
   padding-top: 0.5rem;
   border-radius: 10px;
   text-decoration: none;
+  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
 }
 
 .home_boton {
@@ -257,6 +262,18 @@ footer h3 {
   background-color: rgb(195, 169, 139);
 }
 
+.cont_boton {
+  background-color: rgb(184, 156, 130);
+  border: none;
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
+}
+
 .living {
   width: 400px;
   height: auto;
@@ -264,17 +281,6 @@ footer h3 {
 }
 
 .living:hover {
-  width: 420px;
-  height: auto;
-}
-
-.blanco {
-  width: 400px;
-  height: auto;
-  transition: height 1s, width 2s;
-}
-
-.blanco:hover {
   width: 420px;
   height: auto;
 }
