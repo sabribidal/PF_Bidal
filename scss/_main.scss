@@ -9,8 +9,7 @@ body{height: 100vh;}
 .fondoHome{
     display: flex; flex-direction: column;align-items: center;
     background-image: url(../img/bathroom.jpg);
-    width: 100%;
-    height: 100vh;
+    width: 100%;height: 100vh;
     background-size: cover;
     background-position: center;   
 }
@@ -20,21 +19,16 @@ body{height: 100vh;}
     color: white;
 }
 
-
-
-
 // nosotros
+.living{width: 400px;}
 .texto_nos{
-    flex-direction: column;
-    margin: 50px;
-    margin-left: 65px;
-    padding: 0;
     width: 650px;
-    justify-content: space-between;
+    padding-right: 5rem;
 }
-.texto_nos h1{margin-bottom: 25px;}
-.P_ultimo{margin-bottom: 50px;}
-.living{width: 400px;height: auto;margin: 50px;}
+
+
+
+
 // proyectos
 .proyectos{background-color: black;height: 100vh;}
 .cards{
@@ -56,19 +50,14 @@ body{height: 100vh;}
 
 
 // contacto
-.space{
-    width: 20rem;
-}
+.space{width: 20rem;}
 .texto_cont{
     padding-right: 3rem;
     width: 500px;
 }
-.formulario{
-    width: 400px;
-}
+.formulario{width: 400px;}
 .mapa{
-    width: 100%;
-    height: 300px;
+    width: 100%;height: 300px;
     margin-top: 6rem;
 }
 

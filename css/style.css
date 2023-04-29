@@ -73,27 +73,13 @@ body {
   color: white;
 }
 
-.texto_nos {
-  flex-direction: column;
-  margin: 50px;
-  margin-left: 65px;
-  padding: 0;
-  width: 650px;
-  justify-content: space-between;
-}
-
-.texto_nos h1 {
-  margin-bottom: 25px;
-}
-
-.P_ultimo {
-  margin-bottom: 50px;
-}
-
 .living {
   width: 400px;
-  height: auto;
-  margin: 50px;
+}
+
+.texto_nos {
+  width: 650px;
+  padding-right: 5rem;
 }
 
 .proyectos {
@@ -246,10 +232,6 @@ footer h3 {
   margin-top: 2.5rem;
 }
 
-.nos_boton {
-  align-items: end;
-}
-
 .proy_boton {
   background-color: rgb(195, 169, 139);
   color: black;
@@ -277,12 +259,11 @@ footer h3 {
 .living {
   width: 400px;
   height: auto;
-  transition: height 1s, width 2s;
+  transition: all 2s;
 }
 
 .living:hover {
-  width: 420px;
-  height: auto;
+  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
 }
 
 /*# sourceMappingURL=style.css.map */
