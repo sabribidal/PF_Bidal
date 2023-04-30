@@ -26,28 +26,16 @@ body{height: 100vh;}
     padding-right: 5rem;
 }
 
-
-
-
 // proyectos
-.proyectos{background-color: black;height: 100vh;}
-.cards{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
-    justify-content: space-between;
-}
+.proyectos{background-color: var($bg-projects)}
+.cards{justify-content: space-evenly;}
 .card{
     padding: 0;
     border: none;
-    background-color: rgb(135, 116, 94);
+    background-color: var($cards);
     width: 320px;
+    text-align: center;
 }
-.card-text{font-size: xx-large;}
-
-
-
 
 // contacto
 .space{width: 20rem;}
@@ -61,12 +49,13 @@ body{height: 100vh;}
     margin-top: 6rem;
 }
 
-
-
 // premios
-.text_premios{margin-right: 200px;margin-left: 200px;text-align: center;}
+.text_prem{padding-left: 10rem;padding-right: 10rem;}
 .img_premios img{width: 400px;height: 450px;}
-.img_premios{margin-top: 20px;margin-bottom: 20px;}
+// .img_premios{margin-top: 20px;margin-bottom: 20px;}
+
+
+
 
 @media (max-width:768px){
     .home_titulo h1{font-size: 75px;}

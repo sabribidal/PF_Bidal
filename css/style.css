@@ -83,27 +83,19 @@ body {
 }
 
 .proyectos {
-  background-color: black;
-  height: 100vh;
+  background-color: var(black);
 }
 
 .cards {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card {
   padding: 0;
   border: none;
-  background-color: rgb(135, 116, 94);
+  background-color: var(rgb(135, 116, 94));
   width: 320px;
-}
-
-.card-text {
-  font-size: xx-large;
+  text-align: center;
 }
 
 .space {
@@ -125,20 +117,14 @@ body {
   margin-top: 6rem;
 }
 
-.text_premios {
-  margin-right: 200px;
-  margin-left: 200px;
-  text-align: center;
+.text_prem {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .img_premios img {
   width: 400px;
   height: 450px;
-}
-
-.img_premios {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -215,7 +201,7 @@ footer h3 {
 }
 
 .home_boton a, .nos_boton a {
-  background-color: rgb(195, 169, 139);
+  background-color: var(rgb(195, 169, 139));
   color: black;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -223,7 +209,7 @@ footer h3 {
   padding-top: 0.5rem;
   border-radius: 10px;
   text-decoration: none;
-  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: var(-4px 4px 10px -1px rgba(0, 0, 0, 0.68));
 }
 
 .home_boton {
@@ -232,20 +218,12 @@ footer h3 {
   margin-top: 2.5rem;
 }
 
-.proy_boton {
-  background-color: rgb(195, 169, 139);
-  color: black;
-  padding: 6px;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
 .navbar-toggler {
   background-color: rgb(195, 169, 139);
 }
 
-.cont_boton {
-  background-color: rgb(184, 156, 130);
+.cont_boton, .proy_boton {
+  background-color: var(rgb(184, 156, 130));
   border: none;
   border-radius: 10px;
   padding-left: 1.5rem;
@@ -253,7 +231,7 @@ footer h3 {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-decoration: none;
-  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: var(-4px 4px 10px -1px rgba(0, 0, 0, 0.68));
 }
 
 .living {

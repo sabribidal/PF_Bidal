@@ -1,11 +1,11 @@
 // home y nosotros
 .home_boton a, .nos_boton a{
-    background-color: rgb(195, 169, 139);
+    background-color: var($boton2);
     color: black;
     padding-left: 2.5rem;padding-right: 2.5rem;padding-bottom: 0.5rem;padding-top: 0.5rem;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: -4px 4px 10px -1px rgba(0,0,0,0.68);
+    box-shadow: var($sombras);
 }
 .home_boton{
     text-align: center;
@@ -17,17 +17,16 @@
 
 
 // proyectos
-.proy_boton{background-color: rgb(195, 169, 139);color: black;padding: 6px;border-radius: 10px;text-decoration: none;}
 .navbar-toggler{background-color: rgb(195, 169, 139);}
 
 
 
-// contacto
-.cont_boton{
-    background-color: rgb(184, 156, 130);
+// contacto y proyectos
+.cont_boton, .proy_boton{
+    background-color: var($boton1);
     border: none;
     border-radius: 10px;
     padding-left: 1.5rem;padding-right: 1.5rem;padding-bottom: 0.5rem;padding-top: 0.5rem;
     text-decoration: none;
-    box-shadow: -4px 4px 10px -1px rgba(0,0,0,0.68);
+    box-shadow: var($sombras);
 }
