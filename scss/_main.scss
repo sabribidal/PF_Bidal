@@ -4,6 +4,7 @@ body{font-family: 'Abel', sans-serif;}
 img{max-width: 100%;max-height: 100%;}
 .row{margin-right: 0;margin-left: 0;}
 body{height: 100vh;}
+span{color: $boton1;}
 
 // home
 .fondoHome{
@@ -11,23 +12,27 @@ body{height: 100vh;}
     background-image: url(../img/bathroom.jpg);
     width: 100%;height: 100vh;
     background-size: cover;
-    background-position: center;   
-}
-.home_titulo h1{    
-    font-size: 100px;
-    position: relative;z-index: 1;
-    color: white;
+    background-position: center; 
+    .home_titulo h1{    
+        font-size: 100px;
+        position: relative;z-index: 1;
+        color: white;
+    }  
 }
 
 // nosotros
-.living{width: 400px;}
-.texto_nos{
-    width: 650px;
-    padding-right: 5rem;
+.nosotros{
+    background-color: $bg-principal;
+    .living{width: 400px;}
+    .texto_nos{
+        width: 650px;
+        padding-right: 5rem;
+        color: white;
+    }
 }
 
 // proyectos
-.proyectos{background-color: $bg-projects}
+.proyectos{background-color: $bg-principal;}
 .cards{justify-content: space-evenly;}
 .card{
     padding: 0;
@@ -38,20 +43,45 @@ body{height: 100vh;}
 }
 
 // contacto
-.space{width: 20rem;}
-.texto_cont{
-    padding-right: 3rem;
-    width: 500px;
-}
-.formulario{width: 400px;}
-.mapa{
-    width: 100%;height: 300px;
-    margin-top: 6rem;
+.contact{
+    background-color: $bg-principal;
+    color: $font;
+    .texto_cont{
+        padding-right: 3rem;
+        width: 470px;
+    }
+    .space{
+        width: 20rem;
+        box-shadow: $sombra
+    }
+    .formulario{
+        width: 400px;
+        .form{
+            width: 330px;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            border: none;
+            box-shadow: $sombra;
+            margin-bottom: 1.5rem;
+        }
+        textarea{
+            @extend .form;
+            height: 150px;
+        }
+    }
+    .mapa{
+        width: 100%;height: 300px;
+        margin-top: 6rem;
+    }
 }
 
 // premios
-.text_prem{padding-left: 10rem;padding-right: 10rem;}
-.img_premios img{width: 400px;height: 450px;}
+.premios{
+    background-color: $bg-principal;
+    color: $font;
+    .text_prem{padding-left: 10rem;padding-right: 10rem;}
+    .img_premios img{width: 400px;height: 450px;}
+}
 
 
 

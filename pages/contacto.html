@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 contact">
         <!-- logo + nav -->    
         <header class="row">        
             <nav class="navbar navbar-expand-lg col-12 col-xl-12">  
@@ -41,7 +41,7 @@
         <main>
             <div class="row text-center my-5">
                 <div class="col-12 col-xl-12">
-                    <h1>Our team wants to hear from you!</h1>       
+                    <h1>Our team <span>wants to hear from you!</span></h1>       
                 </div>
             </div>
             <div class="row p-0 justify-content-center">
@@ -50,14 +50,10 @@
                 </div>
                 <div class="col-12 col-xl-4 formulario"> 
                     <form action="#">    
-                        <label for="nombre">Name</label><br>    
-                        <input type="text" style="width: 330px"><br>
-                        <label for="apellido">Last name</label><br>
-                        <input type="text" style="width: 330px"><br>    
-                        <label for="mail">Mail</label><br>    
-                        <input type="email" name="mail" style="width: 330px"><br>    
-                        <label for="Mensaje">Message</label><br>    
-                        <textarea name="mensaje" id="" cols="30" rows="10" style="width: 330px;height: 150px;"></textarea><br>    
+                        <input type="text" placeholder="Name" class="form"><br>
+                        <input type="text" placeholder="Last name" class="form"><br>    
+                        <input type="email" name="mail" placeholder="Mail" class="form"><br>    
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Messaje"></textarea><br>    
                         <input type="submit" value="Send" class="cont_boton">    
                     </form>       
                 </div>

@@ -30,3 +30,7 @@
     text-decoration: none;
     box-shadow: $sombra;
 }
+.proy_boton{
+    @extend .cont_boton;
+    transform: translateY(-70px);
+}

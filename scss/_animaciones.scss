@@ -1,2 +1,7 @@
+// nosotros
 .living{width: 400px;height: auto;transition: all 2s}
 .living:hover{box-shadow: $sombra}
+
+// premios
+.casa1, .casa2, .casa3{width: 400px;height: auto;transition: all 2s;}
+.casa1:hover, .casa2:hover, .casa3:hover{box-shadow: $sombra;filter: brightness(50%);}
