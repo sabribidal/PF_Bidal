@@ -1,11 +1,11 @@
 // home y nosotros
 .home_boton a, .nos_boton a{
-    background-color: var($boton2);
+    background-color: $boton1;
     color: black;
     padding-left: 2.5rem;padding-right: 2.5rem;padding-bottom: 0.5rem;padding-top: 0.5rem;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: var($sombras);
+    box-shadow: $sombra;
 }
 .home_boton{
     text-align: center;
@@ -23,10 +23,10 @@
 
 // contacto y proyectos
 .cont_boton, .proy_boton{
-    background-color: var($boton1);
+    background-color: $boton2;
     border: none;
     border-radius: 10px;
     padding-left: 1.5rem;padding-right: 1.5rem;padding-bottom: 0.5rem;padding-top: 0.5rem;
     text-decoration: none;
-    box-shadow: var($sombras);
+    box-shadow: $sombra;
 }

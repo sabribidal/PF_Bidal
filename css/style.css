@@ -83,7 +83,7 @@ body {
 }
 
 .proyectos {
-  background-color: var(black);
+  background-color: black;
 }
 
 .cards {
@@ -93,7 +93,7 @@ body {
 .card {
   padding: 0;
   border: none;
-  background-color: var(rgb(135, 116, 94));
+  background-color: rgb(135, 116, 94);
   width: 320px;
   text-align: center;
 }
@@ -201,7 +201,7 @@ footer h3 {
 }
 
 .home_boton a, .nos_boton a {
-  background-color: var(rgb(195, 169, 139));
+  background-color: rgb(195, 169, 139);
   color: black;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -209,7 +209,7 @@ footer h3 {
   padding-top: 0.5rem;
   border-radius: 10px;
   text-decoration: none;
-  box-shadow: var(-4px 4px 10px -1px rgba(0, 0, 0, 0.68));
+  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
 }
 
 .home_boton {
@@ -223,7 +223,7 @@ footer h3 {
 }
 
 .cont_boton, .proy_boton {
-  background-color: var(rgb(184, 156, 130));
+  background-color: rgb(184, 156, 130);
   border: none;
   border-radius: 10px;
   padding-left: 1.5rem;
@@ -231,7 +231,7 @@ footer h3 {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-decoration: none;
-  box-shadow: var(-4px 4px 10px -1px rgba(0, 0, 0, 0.68));
+  box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
 }
 
 .living {

@@ -27,12 +27,12 @@ body{height: 100vh;}
 }
 
 // proyectos
-.proyectos{background-color: var($bg-projects)}
+.proyectos{background-color: $bg-projects}
 .cards{justify-content: space-evenly;}
 .card{
     padding: 0;
     border: none;
-    background-color: var($cards);
+    background-color: $cards;
     width: 320px;
     text-align: center;
 }
@@ -52,7 +52,6 @@ body{height: 100vh;}
 // premios
 .text_prem{padding-left: 10rem;padding-right: 10rem;}
 .img_premios img{width: 400px;height: 450px;}
-// .img_premios{margin-top: 20px;margin-bottom: 20px;}
 
 
 
