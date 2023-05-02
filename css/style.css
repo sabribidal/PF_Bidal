@@ -70,10 +70,9 @@ span {
   background-size: cover;
   background-position: center;
 }
-.fondoHome .home_titulo h1 {
+
+.home_titulo h1 {
   font-size: 100px;
-  position: relative;
-  z-index: 1;
   color: white;
 }
 
