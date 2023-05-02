@@ -6,5 +6,8 @@ nav{height: 65px;}
 nav .container-fluid{padding-left: 50px;padding-right: 50px;}
 
 @media (max-width:768px){
-    .menu{background-color: black;}
+    .menu{
+        background-image: linear-gradient(black, $bg-principal);
+        z-index: 1;
+    }
 }

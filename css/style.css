@@ -30,7 +30,8 @@ nav .container-fluid {
 
 @media (max-width: 768px) {
   .menu {
-    background-color: black;
+    background-image: linear-gradient(black, rgb(37, 37, 37));
+    z-index: 1;
   }
 }
 main {
@@ -151,59 +152,44 @@ span {
 
 @media (max-width: 768px) {
   .home_titulo h1 {
-    font-size: 75px;
+    font-size: 50px;
   }
-  .texto_nos {
-    padding: 10px;
-    margin: auto;
-    text-align: inherit;
-    width: 350px;
+  .mobile {
+    flex-direction: column;
+    align-items: center;
   }
-  .mt-5 {
-    margin-top: 0;
-  }
-  .living {
-    padding: 0;
+  .mobile .texto_nos {
+    padding: 1.5rem;
+    text-align: center;
     width: auto;
   }
-  .cards {
-    justify-content: center;
+  .mobile .living {
+    width: 350px;
   }
   .card {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
   }
-  .menu {
-    z-index: 1;
+  .card .proy_boton {
+    transform: translateY(0px);
   }
-  .text_premios {
-    margin: auto;
-    padding: 10px;
-    text-align: inherit;
+  .premios .text_prem {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .premios .premio {
     width: 350px;
   }
-  .img_premios {
-    flex-direction: column;
-  }
-  .img_premios img {
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  .texto_cont {
-    width: auto;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-  }
-  .blanco {
-    width: 100%;
-    margin-top: 50px;
-  }
-  .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .mobileContact {
     text-align: center;
+  }
+  .mobileContact .texto_cont {
+    width: auto;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+  .mobileContact .cont_boton, .mobileContact .proy_boton {
+    margin-bottom: 5rem;
   }
 }
 footer {
