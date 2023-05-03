@@ -4,4 +4,11 @@
 
 // premios
 .casa1, .casa2, .casa3{width: 400px;height: auto;transition: all 2s;}
-.casa1:hover, .casa2:hover, .casa3:hover{box-shadow: $sombra;filter: brightness(50%);}
+.casa1:hover, .casa2:hover, .casa3:hover{
+    box-shadow: $sombra;
+    filter: brightness(50%);
+}
+
+// footer
+.rrss{width: 60px;height: auto;transition: all 1s;}
+.rrss:hover{transform: translateY(-10px);}

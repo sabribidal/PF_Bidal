@@ -4,6 +4,7 @@ header{background-image: linear-gradient(black, $bg-principal)}
 nav{height: 65px;}
 .nav_logo{height: 65px;width: auto;}
 nav .container-fluid{padding-left: 50px;padding-right: 50px;}
+.navbar-toggler{background-color: rgb(195, 169, 139);}
 
 @media (max-width:768px){
     .menu{

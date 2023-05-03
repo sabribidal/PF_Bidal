@@ -16,7 +16,7 @@ span{color: $boton1;} // palabras resaltadas
 }
 .home_titulo h1{    
     font-size: 100px;
-    color: white;
+    color: $font;
 }
 
 // nosotros
@@ -26,7 +26,7 @@ span{color: $boton1;} // palabras resaltadas
     .texto_nos{
         width: 650px;
         padding-right: 5rem;
-        color: white;
+        color: $font;
     }
 }
 

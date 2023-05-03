@@ -13,14 +13,6 @@
     margin-top: 2.5rem;
 }
 
-
-
-
-// proyectos
-.navbar-toggler{background-color: rgb(195, 169, 139);}
-
-
-
 // contacto y proyectos
 .cont_boton, .proy_boton{
     background-color: $boton2;
@@ -30,7 +22,9 @@
     text-decoration: none;
     box-shadow: $sombra;
 }
-.proy_boton{
+
+// premios
+.prem_boton{
     @extend .cont_boton;
     transform: translateY(-70px);
 }

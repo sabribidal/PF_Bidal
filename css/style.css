@@ -28,6 +28,10 @@ nav .container-fluid {
   padding-right: 50px;
 }
 
+.navbar-toggler {
+  background-color: rgb(195, 169, 139);
+}
+
 @media (max-width: 768px) {
   .menu {
     background-image: linear-gradient(black, rgb(37, 37, 37));
@@ -187,7 +191,7 @@ span {
     padding-top: 0;
     padding-bottom: 3rem;
   }
-  .mobileContact .cont_boton, .mobileContact .proy_boton {
+  .mobileContact .cont_boton, .mobileContact .prem_boton {
     margin-bottom: 5rem;
   }
 }
@@ -225,11 +229,7 @@ footer h3 {
   margin-top: 2.5rem;
 }
 
-.navbar-toggler {
-  background-color: rgb(195, 169, 139);
-}
-
-.cont_boton, .proy_boton {
+.cont_boton, .prem_boton, .proy_boton {
   background-color: rgb(184, 156, 130);
   border: none;
   border-radius: 10px;
@@ -241,7 +241,7 @@ footer h3 {
   box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
 }
 
-.proy_boton {
+.prem_boton {
   transform: translateY(-70px);
 }
 
@@ -264,6 +264,16 @@ footer h3 {
 .casa1:hover, .casa2:hover, .casa3:hover {
   box-shadow: -4px 4px 10px -1px rgba(0, 0, 0, 0.68);
   filter: brightness(50%);
+}
+
+.rrss {
+  width: 60px;
+  height: auto;
+  transition: all 1s;
+}
+
+.rrss:hover {
+  transform: translateY(-10px);
 }
 
 /*# sourceMappingURL=style.css.map */
